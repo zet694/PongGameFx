@@ -51,7 +51,7 @@ public class Main extends Application {
         bat.setTranslateY(APP_H - BAT_H);
         bat.setFill(Color.BLUE);
 
-        Image image = new Image("sample/ball.png");
+        Image image = new Image("sample/ball.png"); // ball
         ImagePattern imagePattern = new ImagePattern(image);
         ball.setFill(imagePattern);
 
